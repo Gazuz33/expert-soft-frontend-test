@@ -152,3 +152,18 @@ header {
       margin-left: -150px;
     }
   }
+  @media (max-width: 300px) {
+    .card {
+      flex: 0 1 80%;
+    }
+    .content__container {
+      justify-content: center;
+    }
+    .card__img:hover::after {
+      font-size: 10px;
+      margin-left: -150px;
+    }
+    .card__desc {
+        padding: 0;
+    }
+  }

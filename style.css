@@ -109,7 +109,7 @@ header {
       justify-content: center;
     }
   }
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .card {
     flex: 0 1 50%;
   }
@@ -142,7 +142,7 @@ header {
   }
   @media (max-width: 400px) {
     .card {
-      flex: 0 1 70%;
+      flex: 0 1 80%;
     }
     .content__container {
       justify-content: center;
